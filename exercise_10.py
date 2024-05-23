@@ -2,7 +2,6 @@
 
 from typing import List, Dict, Union
 
-
 def calculate_score(player_data):
     scores = {}
     for player in player_data:
@@ -16,6 +15,10 @@ def calculate_score(player_data):
                 player_score += 1
         scores[player_name] = player_score
     return scores
+
+
+# Try to execute the function, with the matching input, to see what it does
+
 
 
 

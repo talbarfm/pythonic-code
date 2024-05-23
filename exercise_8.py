@@ -9,9 +9,10 @@ def process_data(data):
     avg = total / num_items
     min_item = min(data, key=lambda x: x['price'])
     max_item = max(data, key=lambda x: x['price'])
-    return {
-        'total': total,
-        'average': avg,
-        'min_item': min_item,
-        'max_item': max_item
-    }
+    return {'total': total, 'average': avg,'min_item': min_item, 'max_item': max_item}
+
+print(process_data([{'qty': 3, 'price':8}]))
+
+
+
+

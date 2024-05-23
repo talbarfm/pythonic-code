@@ -7,4 +7,4 @@ def reverse_positive_number(num):
     return reverse_number
 
 
-print(reverse_number(123))
+print(reverse_positive_number(123))
