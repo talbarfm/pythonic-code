@@ -1,4 +1,3 @@
-# Hint - read about functools.partial
 
 
 
